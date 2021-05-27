@@ -1,6 +1,9 @@
 # DMSN
 EPIDEMIC SPREADING ANALYSIS USING SOCIAL NETWORKS
 To combat an epidemics, it is critical to take into account the structure of the social network and how it supports or slows down spreading, and to model the effects of local changes in the network (such as lockdown). This project relies on subsets of datasets available from the social network app Gowalla. Gowalla was a location-based social networking service. The first large-scale dataset is a friendship network, where each node is a user and each edge denotes friendship. The second large-scale dataset is a record of 6,442,890 checks-ins (including geographical coordinates) of these users over the period of Feb. 2009 - Oct. 2010. The project is based on excerpts of these datasets, on a much smaller scale. By combining these two dataset sources, one can simulate a hypothetical epidemic spreading between friends who meet in a same place within a given time window, and see how the network structure influence this spreading.
+
 **Task 1:** Generated an epidemic spreading simulation in the friendship network. By taking the co-location data, modelled on how a hypothetical infection would spread in the population, as friends co-locate and are susceptible to infect each other.
+
 **Task 2:**  Assessed the importance of the centrality of nodes on epidemic spreading. Removed X% of the most central nodes (users) and then ran simulations on how this change changes the spreading velocity of the infection. Tried different centrality measures (eigenvector centrality, betweeness centrality, amongst others and assessed how these measures differ on giving useful information for the analysis.
+
 **Task 3:** Simulated epidemic spread within a community assuming epidemic triggers from a single person and also a single community there. Identified key hotspots and people removing which (whom) would slow the spread between communities.
